@@ -1,0 +1,48 @@
+body{
+    background:  rgb(179, 188, 180);
+    margin: 0;   
+}
+.feedback-class{
+    margin-left: 500px;
+}
+.feedback-header{
+    margin-top: 75px;
+    margin-left: 20px;
+}
+.feedback-head{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.feedback-box{
+    height: 300px;
+    width: 600px;
+    border: 1px solid rgb(29, 27, 27); 
+    border-radius: 20px;
+    background: rgb(182, 215, 212);
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.feedback-box-content{
+    margin-top: 50px;
+    font-size: larger;
+}
+.feedback-input{
+    height: 50px;
+    width: 60%;
+    margin-top: 20px;
+}
+.submision{
+    margin-top: 25px;
+}
+.submitButton{
+    /* height: 30px;
+    width: 135px; */
+    /* font-display: black;
+    color: rgb(218, 42, 42); */
+}
+.feedback-submit{
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

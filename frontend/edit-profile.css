@@ -1,0 +1,42 @@
+main{
+    margin: 0;
+}
+.edit-container{
+    height: 1450px;
+    width: 100%;
+    margin-top: 10px;
+}
+.edit-container-body{
+    height: 1400px;
+    width: 97%;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 4.0px 8.0px 8.0px hsla(0, 0%, 1%, 0.38);
+    background: #eae4ec;
+}
+.edit-form{
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 20px;
+   line-height: 30px;
+}
+.form-elements{
+    height: 40px;
+    width: 30%;
+}
+#about-me,#education,#certificates,#skills,#projects{
+    height: 100px;
+    width: 90%;
+}
+#submit{
+    margin-top: 40px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background: #5b6e24;
+    border-radius: 20px;
+}
+#submit:hover{
+    background: #939ddf;
+}

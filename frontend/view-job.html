@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./view-job.css">
+</head>
+<body>
+    <header>
+        <h1>JobIsHere</h1>
+        <div>
+            <ul class="head-home">
+                <li><a href="./index.html">HOME</a> </li>
+                <li><a href="./job.html">JOBS</a></li>
+                <li><a href="./savedJobs.html">SAVED JOBS</a></li>
+                <li><a href="./profile.html">PROFILE</a></li>
+                <li><a href="./feedback.html">FEEDBACK</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <div class="main" id="main"> 
+            <div class="view-job" >
+                <div class="view-job-container">
+                    <div class="view-job-container-header">
+                        <div class="view-job-company">
+                            <h1 id="jobTitle" class="view-job-name">MERN STACK DEVELOPER </h1>
+                            <h1 id="company" class="view-job-name"> GOOGLE</h1>
+                            <div>
+                                <img id="company-logo" src="data:image/png;base64,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
+                                V/gIS9OcS+cQ41aJ5vYRKnl/0EYT9hMeytquSJ6W1zjRx7WNkE5AVneHTgPd+yGE4KrmDy61SwKay+efuWWvCneM9X6DcUNlgin96opxzIguRj2NrxsoWsedX4jUVaS+jT+/c3LUx6BdyKt9Hbtmt/Kmonnm09hNC8UtOdt8iWR1rVjk3Z0r0ynlCVz3v548e5uJ8wS5HfcKWbBoTYbJZkOf8L5GcvfgCgC3vSzAd1sUvyjmXc8K5ev56akvf0B1Tku8RwnR4zOs+w8bj++geQ0Vs/n2Qd01SpIxOLGTZcz9hx9XXSE66QVukA5s/IWtZ1SB7gr2Q/WivvKuw3fnlbH/BkFrR+TOUsC7i0hYaw2pFmrP6gsbd6Ns8q9jPst8QpkFKJ1R0a+9+T++gxjn2mLHEUaNsnmf1U5rOn530C+1cKpqa4L2uw5C9loOejrSu1iM9e8K4uLMQQB6duKln+e/oQz0WG/cbm8lbxGtHndjAW/j4AsM3qps4fDfD0Gjq7qGKaJr8/M+WO93cR+TeooEdVc81AqnuFDTe11hVt5lvf09xorN64cYOb8wsHMPsDvPWn5kCGO8W+kylCnj28uJLRWscI3rfbCK6xRD8WKdWNov8y2uUmxb7wPXVhFioe/QHeTMbqAY09M/VD87imWyTYz0Fggvv0zMxsZk55QywYsf+ISrqA/rzWGmpg2Jsc3vwsYMQeV3TZqi7H3uzo6mcBxvOpxWCuUWPfqB3YDL039vzPEHTUe0u1/5dmP68FPsOo93niOiHPrHhG7I1WvM8VC4JZTwc9xvON1M7ni9VritK9xqqgy3TUm6OviJTuZ42QIMuZp4zPqqDLNwuV4zv/ALc3xuUiTL/xMn9NyXD/IYY3wtR8Y6Mq9XTk/ycQmpsvKpqf2xAj/z/ufsmmpP9mnQAAAABJRU5ErkJggg==" alt="">
+                            </div>
+                            <ul class="ul">
+                                <li class="view-job-data-location">
+                                    <h5 class="view-job-data-header-location">LOCATION</h5>
+                                    <span id="location"class="view-job-data-span-location">Gujarat</span>
+                                </li>
+                                <li class="view-job-data-type">
+                                    <h5 class="view-job-data-header-type">JOB TIME</h5>
+                                    <span id="job-time" class="view-job-data-span-type">Full Time</span>
+                                </li>
+                            </ul>
+                        </div>  
+                    </div >
+                    <div class="view-job-container-body"> 
+                        <ul class="view-job-data">
+                            <li class="view-job-data-list">
+                                <h5 class="view-job-data-header">JOB DESCRIPTION</h5>
+                                <span id="description" class="view-job-data-span">Design and develop scalable web applications using the MERN stack.
+                                    <br> Develop and maintain technical documentation for web applications. 
+                                    <br> Strong understanding of RESTful APIs and web application…</span>
+                            </li>
+                            <li class="view-job-data">
+                                <h5 class="view-job-data-header">JOB REQUIREMENTS</h5>
+                                <span id="requirements" class="view-job-data-span">Proficient in JavaScript, HTML5, CSS3 and Node JS. <br>
+                                    Proficiency in JavaScript, ES6, HTML/CSS, jQuery, DOM manipulation and the JavaScript object model.</span>
+                            </li>
+                            <li class="view-job-data">
+                                <h5 class="view-job-data-header">SALARY</h5>
+                                <span id="salery" class="view-job-data-span">15,000-25,000</span>
+                            </li>
+                            <li class="view-job-data">
+                                <h5 class="view-job-data-header">JOB TYPE</h5>
+                                <span id="job-type" class="view-job-data-span">Work From Office</span>
+                            </li>
+                            <li class="view-job-data">
+                                <h5 class="view-job-data-header">ABOUT</h5>
+                                <span id="about" class="view-job-data-span">Google LLC is an American multinational technology company focusing on online advertising,
+                                    search engine technology, cloud computing, computer software, quantum computing, e-commerce,
+                                    artificial intelligence, and consumer electronics.Google is currently the first name that pops
+                                    into your head when you enter the online world. 
+                                    Nearly everyone who uses the Internet is familiar with this word and uses it in various ways, yet 
+                                    relatively few people fully understand what Google is. In actuality, Google is a multinational technology
+                                    corporation that offers users free services and goods relating to the Internet. Online ad techniques, cloud computing for search, software, hardware, etc., are all included in this service.</span>
+                            </li>
+                        </ul>
+                        <div id="view-job-button-div">
+                            <div id="hiid">
+
+                            </div>
+                            <button id="view-job-button">Apply For This Job</button>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./view-job.js" type="module"></script>
+</body>
+</html>

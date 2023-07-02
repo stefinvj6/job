@@ -1,0 +1,35 @@
+main{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: larger;
+}
+.job-box{
+    width: 100%;
+    float: left;
+}
+.job-list-items{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 350px;
+    width: 17%;
+    border-radius: 35px;
+    background: #b092a7;
+    border: 1px solid black;
+    text-align: center;
+    list-style-type: none;
+    float: left;
+}
+.image-logo{
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+}
+.job-needs{
+    text-align: left;
+    margin-left: 30px;
+    padding: 10px;
+    line-height: 30px;
+}
+.job-posted{
+    margin-left: 80px;
+}

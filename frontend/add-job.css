@@ -1,0 +1,50 @@
+#form{
+    margin: 0;
+    line-height: 30px;
+    background: #ebe3e3;
+}
+.company-name{
+    height: 40px;
+    width: 100%;
+}
+.job-role{
+    height: 40px;
+    width: 100%;
+}
+.job-salery{
+    height: 40px;
+    width: 100%;
+}
+.job-type{
+    height: 40px;
+    width: 100%;
+}
+.job-requirements{
+    height: 60px;
+    width: 100%;
+}
+.job-description{
+    height: 80px;
+    width: 100%;
+}
+.contact-number{
+    height: 40px;
+    width: 100%;
+}
+.company-Address{
+    height: 60px;
+    width: 100%;
+}
+.job-Posted{
+    height: 40px;
+    width: 100%;
+}
+.job-submit{
+    height: 40px;
+    width: 70px;
+    margin-left: 35%;
+    background: #b3bc9a;
+}
+.job-submit:hover{
+    background: #939ddf;
+}

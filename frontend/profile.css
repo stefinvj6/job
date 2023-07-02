@@ -1,0 +1,111 @@
+.main{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.about{
+    height: 750px;
+    width: 90%;
+    margin-left: 50px;
+    border: 1px solid rgb(244, 238, 238) ;
+    background-color:	  #deefec;
+}
+.about-container{
+    height: 250px;
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: 1px solid rgb(214, 207, 207) ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    background: #bbd1d0;
+}
+.aboutImage{
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+.about-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.about-head{
+    margin-left: 50px;
+    height: 250px;
+    width: 40%;
+    text-align: left;
+}
+.about-details{
+    height: 250px;
+    width: 40%;
+}
+.about-ul-details{
+    font-size: large;
+    line-height: 50px;
+    margin-left: 100px;
+}
+.about-content{
+    height: 450px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.about-content-education{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.about-ul-education{
+    margin-top: 50px;
+}
+.about-li-education{
+    margin-left: 55px;
+    font-size: large;
+    margin-top: 10px;
+}
+.about-ul-certificates{
+    margin-top: 50px;
+}
+.about-li-certificates{
+    margin-left: 55px;
+    font-size: large;
+    margin-top: 10px;
+}
+.about-content-skills{
+    height: 100%;
+    width: 50%;
+    margin-left: 615px;
+    border: 1px solid   #deefec;
+}
+.about-ul-skills{
+    margin-top: 50px;
+}
+.about-li-skills{
+    margin-left: 55px;
+    font-size: large;
+    margin-top: 10px;
+}
+.about-ul-project{
+    margin-top: 50px;
+}
+.about-li-project{
+    margin-left: 55px;
+    font-size: large;
+    margin-top: 10px;
+}
+.about-edit-profile{
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+    margin-left: 205px;
+    margin-top: 30px;
+    background: #098f4a;  
+}
+.about-edit{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
