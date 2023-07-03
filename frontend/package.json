@@ -4,7 +4,8 @@
   "description": "",
   "main": "job.js",
   "scripts": {
-    "start": "npx parcel index.html"
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
