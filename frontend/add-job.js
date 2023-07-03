@@ -33,7 +33,7 @@ form.addEventListener("submit", (e) => {
         }
 
         const addJob  = (newJob) =>{
-            axios.post("http://localhost:6302/jobo",newJob )
+            axios.post("https://job-portal-cq96.onrender.com/jobo",newJob )
             .then(response =>{
                 console.log(response)
             })

@@ -19,7 +19,7 @@ form.addEventListener("submit",(e)=>{
         username:username,
         password:password
     }
-    axios.post("http://localhost:6302/user/login", posted)
+    axios.post("https://job-portal-cq96.onrender.com/user/login", posted)
     .then(response =>{
         let comparisionResult=response.data.comparisionResult
             const token =response.data.token

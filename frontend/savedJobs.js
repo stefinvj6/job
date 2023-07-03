@@ -21,7 +21,7 @@ const tokenCookie=document.cookie
 const tokenCookieSplit=tokenCookie.split("=")
 const token = tokenCookieSplit[1]
 
-axios.get("http://localhost:6302/apply",{
+axios.get("https://job-portal-cq96.onrender.com/apply",{
     headers:{
         Authorization:`Bearer ${token}`
     }
@@ -77,7 +77,7 @@ function appliedJobs(jobsArray){
             const id = Apply._id
             console.log(id)
                 axios
-                .delete(`http://localhost:6302/apply/${id}`,{
+                .delete(`https://job-portal-cq96.onrender.com/apply/${id}`,{
                     headers:{
                         Authorization:`Bearer ${token}`
                     }   

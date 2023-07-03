@@ -23,7 +23,7 @@ const tokenCookieSplit = tokenCookie.split("=")
 const token =tokenCookieSplit[1]
 console.log(token)
 
-axios.get("http://localhost:6302/profileMe",{
+axios.get("https://job-portal-cq96.onrender.com/profileMe",{
     headers:{
         "Authorization":`Bearer ${token}`
     }

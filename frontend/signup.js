@@ -16,7 +16,7 @@ form.addEventListener("submit", (e) =>{
     }
 
     const addUser = (userDetails) =>{
-        axios.post("http://localhost:6302/user",userDetails)
+        axios.post("https://job-portal-cq96.onrender.com/user",userDetails)
         .then(response =>{
             console.log(response.data)
             window.location.href='.\index.html'

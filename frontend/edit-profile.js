@@ -43,7 +43,7 @@ const { default: axios } = require("axios")
             projects:projects
         }
         
-        axios.post('http://localhost:6302/profile',editprofile,{
+        axios.post('https://job-portal-cq96.onrender.com/profile',editprofile,{
            headers:{
                "Authorization":`Bearer ${token}`,
             }, 

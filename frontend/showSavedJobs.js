@@ -16,7 +16,7 @@ const url = new URL (document.URL)
 const searchParams= url.searchParams
 const id = searchParams.get("id")
 
-axios.get("http://localhost:6302/jobo/"+id)
+axios.get("https://job-portal-cq96.onrender.com/jobo/"+id)
 .then(response=>{
     console.log(response.data)
     const viewjobs=response.data
@@ -41,7 +41,7 @@ axios.get("http://localhost:6302/jobo/"+id)
         console.log(id)
 
         axios
-        .delete("http://localhost:6302/apply/"+id)
+        .delete("https://job-portal-cq96.onrender.com/apply/"+id)
         .then((response)=>{
             console.log(response)            
         })

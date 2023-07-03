@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.get("http://localhost:6302/jobo")
+axios.get("https://job-portal-cq96.onrender.com/jobo")
 .then(response =>{
     displayJobs(response.data);
 })
