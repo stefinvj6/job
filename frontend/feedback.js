@@ -1,7 +1,6 @@
 let submit = document.getElementById("feedback-submit");
 let input = document.getElementById("feedback-input");
 let submission = document.getElementById("feedback-submission");
-let submit = document.getElementById("feedback-submit");
 const submitButton = document.getElementById("submitButton");
 
 submit.addEventListener("click", ()=>{
